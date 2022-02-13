@@ -1,11 +1,39 @@
 body {
   margin: 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding: 0;
   background-color: #e6ceff;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media only screen and (max-width: 1400px) {
+  .a {
+    width: 45% !important;
+  }
+  .b {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .a {
+    width: 65% !important;
+  }
+  .b {
+    width: 75% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .a {
+    width: 85% !important;
+  }
+  .b {
+    width: 80% !important;
+    top: 51% !important;
+  }
 }
