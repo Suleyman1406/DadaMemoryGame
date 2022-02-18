@@ -105,7 +105,6 @@ const ResultModal = ({
   setIsFirst,
 }) => {
   const [leadership, setLeadership] = useState([]);
-  const [leadershipId, setLeadershipId] = useState([]);
   useEffect(() => {
     const db = getDatabase();
     if (isFirst)
@@ -173,7 +172,7 @@ const ResultModal = ({
           {leadership &&
             leadership.map(
               (p, i) =>
-                i !== 10 && (
+                i < 10 && (
                   <Profile
                     key={i}
                     style={
