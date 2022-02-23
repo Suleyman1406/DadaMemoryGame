@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
   padding: 0;
-  background-color: #e6ceff;
+  background-color: rgba(230, 206, 255, 0.7);
 }
 
 code {

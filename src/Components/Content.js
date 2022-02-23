@@ -9,7 +9,7 @@ import ResultModal from "./ResultModal";
 import { useEffect } from "react";
 const Container = styled.div`
   width: 800px;
-  margin: 5px auto;
+  margin: 5px auto 30px;
   background-color: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 5px;
