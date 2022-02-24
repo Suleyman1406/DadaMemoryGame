@@ -11,6 +11,6 @@
 ---
 
 <p float="left">
-<img src="public/images/appImage1.JPG" width="200"/>
-<img src="public/images/appImage2.JPG" width="200"/>
+<img src="public/images/appImage1.JPG" width="49%"/>
+<img src="public/images/appImage2.JPG" width="49%"/>
 </p>
