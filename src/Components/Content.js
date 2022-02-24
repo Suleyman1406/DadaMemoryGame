@@ -103,8 +103,8 @@ const Card = styled.div`
   @media only screen and (max-width: 700px) {
     height: 75px;
   }
-  @media only screen and (max-width: 500px) {
-    height: 50px;
+  @media only screen and (max-width: 490px) {
+    height: 55px;
   }
 `;
 const Score = styled.h3`
@@ -250,7 +250,7 @@ const Content = () => {
                   <img
                     style={{ width: "80%" }}
                     src={"images/" + item.name + ".png"}
-                    alt="asd"
+                    alt="error"
                   />
                 </ImageCard>
               </Card>
