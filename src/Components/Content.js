@@ -247,11 +247,15 @@ const Content = () => {
                     !item.isFind && isOpen ? dispatch(close(id)) : ""
                   }
                 >
-                  <img
-                    style={{ width: "80%" }}
-                    src={"images/" + item.name + ".png"}
-                    alt="error"
-                  />
+                  {item.isOpen && (
+                    <img
+                      style={{
+                        width: "80%",
+                      }}
+                      src={"images/" + item.name + ".png"}
+                      alt="error"
+                    />
+                  )}
                 </ImageCard>
               </Card>
             );
