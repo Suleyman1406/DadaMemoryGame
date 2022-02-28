@@ -138,7 +138,7 @@ const Footer = () => {
           <GithubIcon />
         </Link>
         <Link
-          href="https://www.linkedin.com/in/suleyman-dadashov-54136a178/"
+          href="https://www.linkedin.com/in/dadashow/"
           target="_blank"
         >
           <LinkedinIcon />
