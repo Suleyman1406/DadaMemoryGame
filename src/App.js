@@ -1,10 +1,8 @@
-import "./App.css";
-import Content from "./Components/Content";
-import { store } from "./redux/store";
+import Content from "./Components/Content/Content";
+import { store } from "./Redux/store";
 import { Provider } from "react-redux";
 import "./Firebase/FirebaseConfig";
-import Footer from "./Components/Footer";
-import styled from "styled-components";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (

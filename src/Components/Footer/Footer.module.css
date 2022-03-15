@@ -1,0 +1,38 @@
+.icon {
+  font-size: 40px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(255, 255, 255, 0.82) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 1) 0px 2px 16px 0px;
+  transition: 0.2s color, 1s box-shadow;
+}
+
+.icon:hover {
+  color: rgba(0, 0, 0, 1);
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+    rgba(255, 255, 255, 0.12) 0px -12px 30px,
+    rgba(255, 255, 255, 0.12) 0px 4px 6px,
+    rgba(255, 255, 255, 0.17) 0px 12px 13px,
+    rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .icon {
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .icon {
+    font-size: 35px;
+    margin: 4px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .icon {
+    font-size: 32px;
+    margin: 3px;
+  }
+}

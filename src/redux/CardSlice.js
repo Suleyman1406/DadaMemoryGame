@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { cardList, shuffle } from "../contentList";
+import { cardList, shuffle } from "../Data/contentList";
 
 export const CardSlice = createSlice({
   name: "cards",
@@ -31,9 +31,9 @@ export const CardSlice = createSlice({
         state.cards[action.payload.id].isOpen = false;
         state.point -= state.point > 0 ? 10 : 0;
       }
-      state.totalSelect = 0;
       state.selected = "";
       state.selectedId = 0;
+      state.totalSelect = 0;
     },
     close: (state, action) => {
       state.cards[action.payload].isOpen = false;
