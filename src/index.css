@@ -2,7 +2,9 @@ body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
   padding: 0;
-
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: rgba(230, 206, 255, 0.7) !important;
 }
 

@@ -4,9 +4,9 @@ export const Container = styled.div`
   width: 100%;
   background-color: rgba(230, 206, 255);
   padding: 5px 0px 50px;
+  height: fit-content;
   position: absolute;
   bottom: 0;
-
   @media only screen and (max-height: 1100px) {
     position: relative;
   }
